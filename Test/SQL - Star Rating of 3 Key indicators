@@ -11,7 +11,7 @@ FROM
 	PUBLIC."SurveyData" sd
 where sd.QUESTION_51 in (1,2,3,4,5,6)
 and sd.QUESTION_55 in (1,2,3,4,5,6)
-and sd.QUESTION_11  in (1,2,3,4,5,6)
+and sd.QUESTION_11  in (1,2,3,4,5)
 GROUP BY
 	left(sd.coursecode,6)
 	
